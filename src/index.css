@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
+@import url("../src/components/Sidebar/Sidebar.scss");
+@import url("../src/components/Tables/TableInvoices.scss");
+@import url("../src/pages/Home.scss");
 
 * {
   padding: 0;
@@ -12,6 +15,10 @@
   outline: none;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+img {
+  width: 100%;
 }
 
 .flex {

@@ -1,0 +1,35 @@
+.table__background {
+  background-color: #121423;
+  width: 100%;
+}
+
+.table__wrapper {
+  height: fit-content;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+}
+
+.table__row {
+  background-color: #1e2139;
+  color: white;
+  border-radius: 8px !important;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.table__status {
+  background-color: #00956321;
+  padding: 8px 32px;
+  border-radius: 8px;
+  color: #33d69f;
+  font-weight: 600;
+  font-size: 15px;
+}
